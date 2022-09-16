@@ -7,10 +7,11 @@
   1. [resnet50.onnx](./int8/resnet50.onnx)  一个标准的 ResNet-50 的 onnx 模型。
   2. [resnet50.int8.engine](./int8/resnet50.int8.engine) 在 CUDA11.4-CUDNN8.2.1-TRT7.2.2.3 以及 A2 卡下的环境下,通过 trtexec 和 ResNet-50.onnx 模型，得到的 TensorRT engine 文件。
   3. [test_int8.py](./int8/test_int8.py) 测试 INT8 量化的 ResNet-50 模型速度和精度的脚本。
-- INT4 目录下：
+- int4 目录下：
   1. [resnet50.int4.mge](./int4/resnet50.int4.mge) 一个标准的 INT4 量化的 ResNet-50 的 MegEngine 模型。
   2. [test_int4.py](./int4/test_int4.py) 测试 INT4 量化的 ResNet-50 模型速度和精度的脚本。
-- TODO：近期会补充 INT4 量化的 ResNet-50 模型的训练代码。
+- in4_train 目录下：
+  int4 模型训练，详情见该目录下的[READ.ME](./int4_train/README.md)
 
 
 ## 目录
