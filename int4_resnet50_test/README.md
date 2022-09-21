@@ -26,7 +26,7 @@
 安装 CUDA 11.4 版本的 [MegEngine](https://github.com/MegEngine/MegEngine)
 
 ```sh
-$ python3 -m pip install megengine==1.11.0+cu114 -f
+$ python3 -m pip install megengine==1.11.0+cu114 -f https://megengine.org.cn/whl/mge.html
 ```
 
 ## 数据准备
