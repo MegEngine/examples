@@ -23,10 +23,11 @@
 <!-- /TOC -->
 
 ## 环境依赖
-安装 CUDA 11.4 版本的 [MegEngine](https://github.com/MegEngine/MegEngine)
+安装 CUDA 11.4 版本的 [MegEngine](https://github.com/MegEngine/MegEngine) 和  matplotlib
 
 ```sh
 $ python3 -m pip install megengine==1.11.0+cu114 -f https://megengine.org.cn/whl/mge.html
+$ python3 -m pip install matplotlib
 ```
 
 ## 数据准备
