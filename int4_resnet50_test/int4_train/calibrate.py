@@ -19,7 +19,6 @@ from collections import OrderedDict
 from IPython import embed
 import numpy as np
 from tqdm import tqdm
-import rrun
 
 import megengine as mge
 import megengine.module as M
