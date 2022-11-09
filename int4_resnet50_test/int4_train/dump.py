@@ -26,7 +26,7 @@ def main():
     parser.add_argument(
         "-a",
         "--arch",
-        default="resnet18",
+        default="resnet50",
         help="model architecture (default: resnet50)",
     )
     parser.add_argument(
@@ -34,7 +34,7 @@ def main():
     )
     parser.add_argument(
         "--save",
-        default="resnt18-int4.mge",
+        default="resnet50-int4.mge",
         help="path to save output .mge file",
     )
 

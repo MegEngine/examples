@@ -19,3 +19,10 @@ python3 calibrate.py -d data/ -a resnet50 -m log/resnet50/normal/checkpoint.pkl 
 ```
 python3 train.py -d data/ -a resnet50 -n 8 --save log --epochs 10 -b 64 --lr 0.00025 --momentum 0.9 --weight-decay 1e-5 --mode qat -j 4 -m model_qat_init.pkl --warmup_epochs 0
 ```
+
+## 模型 dump 成静态图 .mge 格式 
+```
+python3 dump.py -m log/resnet50/qat/checkpoint.pkl
+ls resnet50-int4.mge
+``` 
+
